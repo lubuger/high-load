@@ -2,9 +2,9 @@ const { Sequelize } = require('sequelize');
 const { Umzug, SequelizeStorage } = require('umzug');
 // const { initUser, User } = require('./models/User');
 
-const db = 'inlendo';
-const user = 'postgres';
-const pass = 'postgresql';
+const db = '*';
+const user = '*';
+const pass = '*';
 
 const sequelize = new Sequelize(db, user, pass, {
     host: 'localhost',
